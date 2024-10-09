@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{\"/\":[\"static/media/4b4ebe20759bdbf2-s.p.ttf\",\"static/media/a52d0bf095c248da-s.p.ttf\"]},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":true}"
