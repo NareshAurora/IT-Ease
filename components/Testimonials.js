@@ -54,7 +54,7 @@ const Testimonials = () => {
                   className="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full object-cover mb-3 sm:mb-4 shadow-lg"
                 />
                 <blockquote className="text-lg sm:text-xl italic mb-3 sm:mb-4 w-[70%] md:w-[100%]">
-                  "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
                 </blockquote>
                 <p className="font-bold text-base sm:text-lg">
                   {testimonial.customer}
