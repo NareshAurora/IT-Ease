@@ -849,6 +849,7 @@
 
 import RootLayout from "@/app/layout";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const ProductsPage = () => {
   const [selectedBrand, setSelectedBrand] = useState([]);
@@ -1199,9 +1200,11 @@ const ProductsPage = () => {
                   key={product.id}
                   className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
                 >
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
+                    width={300}
+                    height={200}
                     className="w-full h-48 object-contain rounded-lg mb-4"
                   />
                   <h3 className="text-lg font-bold mb-2 text-gray-800">
