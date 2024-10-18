@@ -5,6 +5,7 @@
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-poppins-medium: "Poppins Medium", sans-serif;
+  --font-poppins-bold: "Poppins Bold", sans-serif;
 }
 
 body {

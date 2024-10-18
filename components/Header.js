@@ -147,7 +147,7 @@ const NavItem = ({ item }) => {
   return (
     <span className={`${isActive ? "font-bold" : ""}`}>
       <Link href={item.path}>
-        <span className="hover:text-gray-900">{item.label}</span>
+        <span className="hover:text-gray-900 text-lg">{item.label}</span>
       </Link>
     </span>
   );
@@ -175,13 +175,12 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isHomePage
+      className={`fixed w-full z-50 transition-all duration-300 ${isHomePage
           ? isScrolled
             ? "bg-white shadow-md"
             : "bg-transparent"
           : "bg-white shadow-md"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto p-6 flex items-center justify-between">
         <Link href="/">
@@ -199,7 +198,7 @@ const Header = () => {
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
             <span className="ml-3 text-xl font-bold text-gray-900">
-              IT Ease
+              Fiber axis technologies
             </span>
           </span>
         </Link>
@@ -210,14 +209,6 @@ const Header = () => {
               <NavItem key={item.label} item={item} />
             ))}
           </nav>
-
-          <div className="hidden md:block">
-            <Link href="/login">
-              <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">
-                Login
-              </button>
-            </Link>
-          </div>
         </div>
 
         <button
@@ -243,9 +234,8 @@ const Header = () => {
 
       {/* Mobile navigation */}
       <div
-        className={`md:hidden fixed inset-y-0 left-0 w-64 bg-white z-50 transform ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out`}
+        className={`md:hidden fixed inset-y-0 left-0 w-64 bg-white z-50 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 ease-in-out`}
       >
         <div className="flex items-center justify-center h-16 border-b">
           <Link href="/">

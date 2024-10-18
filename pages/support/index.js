@@ -190,7 +190,7 @@ const Support = () => {
 
                   <Button
                     type="submit"
-                    className="w-[95%] bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600"
+                    className="w-[95%] bg-blue-500 text-white py-1 rounded-lg hover:bg-blue-600"
                   >
                     Submit
                   </Button>

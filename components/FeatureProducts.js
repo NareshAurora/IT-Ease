@@ -21,34 +21,34 @@ const productCategories = [
   {
     title: "Routers",
     description: "High-performance routers to keep your network connected.",
-    image: "/images/routers.jpg", // Replace with actual image paths
+    image: "/images/Feature/Router.jpg", // Replace with actual image paths
     link: "/shop/routers",
   },
   {
     title: "Switches",
     description:
       "Reliable switches for efficient data transfer and connectivity.",
-    image: "/images/switches.jpg", // Replace with actual image paths
+    image: "/images/Feature/Switch.jpg", // Replace with actual image paths
     link: "/shop/switches",
   },
   {
     title: "Firewalls",
     description: "Top-grade firewalls to ensure your network's security.",
-    image: "/images/firewalls.jpg", // Replace with actual image paths
+    image: "/images/Feature/FireWall.webp", // Replace with actual image paths
     link: "/shop/firewalls",
   },
   {
     title: "Enterprise Servers",
     description:
       "Powerful servers designed to handle the most demanding workloads.",
-    image: "/images/servers.jpg", // Replace with actual image paths
+    image: "/images/Feature/enterprise-server.jpg", // Replace with actual image paths
     link: "/shop/servers",
   },
 ];
 
 const FeaturedProducts = () => {
   return (
-    <section className="max-w-7xl mx-auto py-12">
+    <section className="max-w-6xl mx-auto py-12">
       <h2 className="text-4xl font-bold text-center mb-8">Featured Products</h2>
       {/* Carousel for product categories */}
       <Carousel
@@ -81,7 +81,7 @@ const FeaturedProducts = () => {
                     <Button
                       as="a"
                       href={product.link}
-                      className="w-full bg-blue-500 text-white hover:bg-blue-600"
+                      className="w-full py-1 bg-blue-500 text-white hover:bg-blue-600"
                     >
                       Shop Now
                     </Button>
@@ -91,8 +91,8 @@ const FeaturedProducts = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="hidden md:flex" />
+        <CarouselNext className="hidden md:flex" />
       </Carousel>
     </section>
   );

@@ -64,10 +64,10 @@ const Contact = () => {
                   required
                 ></Textarea>
               </div>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center items-center">
                 <Button
                   type="submit"
-                  className="w-[30%] bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600"
+                  className="w-[20%] bg-blue-500 text-white py-1  rounded-lg hover:bg-blue-600"
                 >
                   Submit
                 </Button>

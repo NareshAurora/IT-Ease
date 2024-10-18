@@ -59,7 +59,7 @@ const Services = () => {
               <p className="text-gray-600 mb-4">{service.description}</p>
               {/* Learn More Button */}
               <Button
-                className="bg-blue-500 text-white hover:bg-blue-600"
+                className="bg-blue-500 text-white py-1 hover:bg-blue-600"
                 as="a"
                 href={service.link}
               >

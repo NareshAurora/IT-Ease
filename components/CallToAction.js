@@ -14,7 +14,7 @@ const CallToAction = () => {
         </p>
         <Button
           className={cn(
-            "bg-white text-blue-500 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg"
+            "bg-white text-blue-500 hover:bg-gray-100 font-semibold py-1 px-8 rounded-lg"
           )}
           as="a"
           href="/contact"

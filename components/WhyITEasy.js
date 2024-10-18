@@ -217,107 +217,108 @@ const benefits = [
     title: "Expert Technicians",
     description:
       "Our skilled team has extensive experience across various technologies, ensuring reliable and efficient service.",
-    icon: <FaUsers size={48} className="text-blue-500" />,
-    image: "/images/expert-technicians.avif", // Replace with actual image path
+      icon: "/images/expert-technician-icon.png",
+      image: "/images/expert-technician.svg", // Replace with actual image path
   },
   {
     title: "Comprehensive Solutions",
     description:
       "We offer a full suite of services tailored to meet your specific networking needs, whether for temporary rentals or long-term installations.",
-    icon: <FaTools size={48} className="text-green-500" />,
-    image: "/images/comprehensive-solutions.jpg", // Replace with actual image path
+    icon: "/images/comprehensive-icon.png",
+    image: "/images/comprehensivesolution.svg", // Replace with actual image path
   },
   {
     title: "Competitive Pricing",
     description:
       "Our cost-effective solutions help you maximize your budget without compromising on quality.",
-    icon: <FaDollarSign size={48} className="text-red-500" />,
-    image: "/images/competitive-pricing.png", // Replace with actual image path
+    icon: "/images/pricing.svg",
+    image: "/images/competativePricing.svg", // Replace with actual image path
   },
-  {
-    title: "Fast Turnaround",
-    description:
-      "We understand the urgency of network issues. Our quick response times minimize downtime for your business, ensuring smooth operations.",
-    icon: <FaRocket size={48} className="text-blue-400" />,
-    image: "/images/fast-turnaround.webp", // Replace with actual image path
-  },
+  // {
+  //   title: "Fast Turnaround",
+  //   description:
+  //     "We understand the urgency of network issues. Our quick response times minimize downtime for your business, ensuring smooth operations.",
+  //   icon: <FaRocket size={48} className="text-blue-400" />,
+  //   image: "/images/fast-turnaround.webp", // Replace with actual image path
+  // },
   {
     title: "Customer-Centric Approach",
     description:
       "We work closely with our clients to understand their unique requirements, providing personalized support for the best results.",
-    icon: <FaHandshake size={48} className="text-yellow-500" />,
-    image: "/images/customer-centric.jpg", // Replace with actual image path
+    icon: "/images/customer-icon2.png",
+    image: "/images/customer-centric.svg", // Replace with actual image path
   },
   {
     title: "Quality Assurance",
     description:
       "We adhere to rigorous quality standards, ensuring that all equipment meets the highest performance benchmarks.",
-    icon: <FaCheckCircle size={48} className="text-purple-500" />,
-    image: "/images/quality-assurance.png", // Replace with actual image path
+    icon: "/images/quality-assurance-icon2.svg",
+    image: "/images/quality.svg", // Replace with actual image path
   },
-  {
-    title: "Flexible Options",
-    description:
-      "From sales to rentals, we offer flexible solutions that adapt to your business's ever-changing needs.",
-    icon: <FaExchangeAlt size={48} className="text-gray-500" />,
-    image: "/images/flexible-options.png", // Replace with actual image path
-  },
+  // {
+  //   title: "Premium Quality",
+  //   description:
+  //     "We ensure that every product meets the highest quality standards.",
+  //   // icon: <FaBadge size={48} className="text-blue-500" />,
+  //   image: "/images/premium-quality.jpg", // Replace with actual image path
+  // },
+  // {
+  //   title: "Flexible Options",
+  //   description:
+  //     "From sales to rentals, we offer flexible solutions that adapt to your business's ever-changing needs.",
+  //   icon: <FaExchangeAlt size={48} className="text-gray-500" />,
+  //   image: "/images/flexible-options.png", // Replace with actual image path
+  // },
   {
     title: "Cutting-Edge Technology",
     description:
       "We stay at the forefront of industry developments, ensuring that you have access to the latest networking technologies.",
-    icon: <FaMicrochip size={48} className="text-blue-600" />,
-    image: "/images/cutting-edge.jpg", // Replace with actual image path
+    icon: "/images/cutting-edge-icon.png",
+    image: "/images/cutting edge technology.svg", // Replace with actual image path
   },
-  {
-    title: "Premium Quality",
-    description:
-      "We ensure that every product meets the highest quality standards.",
-    // icon: <FaBadge size={48} className="text-blue-500" />,
-    image: "/images/premium-quality.jpg", // Replace with actual image path
-  },
-  {
-    title: "Unbeatable Savings",
-    description:
-      "Get the best prices on top-quality IT products without breaking the bank.",
-    // icon: <FaDollarSign size={48} className="text-green-500" />,
-    image: "/images/savings.jpg", // Replace with actual image path
-  },
-  {
-    title: "Comprehensive Warranty",
-    description:
-      "Our products come with warranties to ensure long-term peace of mind.",
-    // icon: <FaShieldAlt size={48} className="text-red-500" />,
-    image: "/images/warranty.webp", // Replace with actual image path
-  },
-  {
-    title: "Lifetime Support",
-    description:
-      "We're here to help, anytime you need support with your IT products.",
-    // icon: <FaLifeRing size={48} className="text-blue-400" />,
-    image: "/images/support.jpg", // Replace with actual image path
-  },
-  {
-    title: "Expert Technical Help",
-    description:
-      "Our team of experts is available to assist you with all your technical needs.",
-    // icon: <FaWrench size={48} className="text-yellow-500" />,
-    image: "/images/technical-help.jpg", // Replace with actual image path
-  },
+  // {
+  //   title: "Unbeatable Savings",
+  //   description:
+  //     "Get the best prices on top-quality IT products without breaking the bank.",
+  //   // icon: <FaDollarSign size={48} className="text-green-500" />,
+  //   image: "/images/savings.jpg", // Replace with actual image path
+  // },
+  // {
+  //   title: "Comprehensive Warranty",
+  //   description:
+  //     "Our products come with warranties to ensure long-term peace of mind.",
+  //   // icon: <FaShieldAlt size={48} className="text-red-500" />,
+  //   image: "/images/warranty.webp", // Replace with actual image path
+  // },
+  // {
+  //   title: "Lifetime Support",
+  //   description:
+  //     "We're here to help, anytime you need support with your IT products.",
+  //   // icon: <FaLifeRing size={48} className="text-blue-400" />,
+  //   image: "/images/support.jpg", // Replace with actual image path
+  // },
+  // {
+  //   title: "Expert Technical Help",
+  //   description:
+  //     "Our team of experts is available to assist you with all your technical needs.",
+  //   // icon: <FaWrench size={48} className="text-yellow-500" />,
+  //   image: "/images/technical-help.jpg", // Replace with actual image path
+  // },
   {
     title: "Customer Satisfaction",
     description:
       "We prioritize your satisfaction with every purchase and service.",
     // icon: <FaThumbsUp size={48} className="text-purple-500" />,
-    image: "/images/satisfaction.jpg", // Replace with actual image path
+    icon: "/images/customer-icon.png",
+    image: "/images/customer-satisfaction.webp", // Replace with actual image path
   },
-  {
-    title: "ISO Certified",
-    description:
-      "We adhere to international quality standards with our ISO certification.",
-    // icon: <FaCertificate size={48} className="text-gray-500" />,
-    image: "/images/certification.jpg", // Replace with actual image path
-  },
+  // {
+  //   title: "ISO Certified",
+  //   description:
+  //     "We adhere to international quality standards with our ISO certification.",
+  //   // icon: <FaCertificate size={48} className="text-gray-500" />,
+  //   image: "/images/certification.jpg", // Replace with actual image path
+  // },
 ];
 
 const WhyITEasy = () => {
@@ -330,23 +331,27 @@ const WhyITEasy = () => {
         {benefits.map((benefit, index) => (
           <div
             key={index}
-            className={`flex flex-col lg:flex-row items-center ${
-              index % 2 === 0 ? "lg:flex-row-reverse" : ""
-            }`}
+            className={`flex flex-col lg:flex-row items-center ${index % 2 === 0 ? "lg:flex-row-reverse" : ""
+              }`}
           >
             {/* Image Section */}
             <div className="lg:w-1/2">
               <img
                 src={benefit.image}
                 alt={benefit.title}
-                className="w-full h-64 object-cover rounded-lg shadow-lg"
+                className="w-full h-64 object-contain rounded-lg shadow-lg"
               />
             </div>
 
             {/* Text and Icon Section */}
             <div className="lg:w-1/2 p-6 text-center lg:text-left">
               <div className="flex justify-center lg:justify-start items-center mb-4">
-                {benefit.icon}
+                {/* {benefit.icon} */}
+                <img
+                  src={benefit.icon}
+                  alt={benefit.title}
+                  className="w-12 h-12"
+                />
               </div>
               <h3 className="text-2xl font-semibold mb-2">{benefit.title}</h3>
               <p className="text-gray-600">{benefit.description}</p>

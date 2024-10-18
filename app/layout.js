@@ -15,12 +15,18 @@ const poppinsMedium = localFont({
   weight: "100 900",
 });
 
+const poppinsBold = localFont({
+  src: "./../public/fonts/Poppins-Bold.ttf",
+  variable: "--font-poppins-bold",
+  weight: "100 900",
+});
+
 export default function RootLayout({ children }) {
   return (
     <>
       <Header />
       <div
-        className={`${poppins.variable}  ${poppinsMedium.variable} antialiased`}
+        className={`${poppins.variable}  ${poppinsMedium.variable} ${poppinsBold.variable} antialiased`}
       >
         {children}
       </div>
