@@ -250,11 +250,6 @@ const Header = () => {
               </span>
             </Link>
           ))}
-          <Link href="/login">
-            <span className="block px-4 py-2 mt-4 text-sm text-gray-700 hover:bg-gray-100">
-              Login
-            </span>
-          </Link>
         </nav>
       </div>
     </header>
