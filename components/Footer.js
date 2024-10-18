@@ -46,7 +46,7 @@ export default function Footer() {
 
             <ul className="space-y-2 w-[50%]">
               <li>
-                <Link href="/" className="hover:text-gray-100">
+                <Link href="/privacy" className="hover:text-gray-100">
                   Privacy Policy
                 </Link>
               </li>
@@ -56,22 +56,22 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-gray-100">
+                <Link href="/refund" className="hover:text-gray-100">
                   Refund Policy
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-gray-100">
+                <Link href="/disclaimer" className="hover:text-gray-100">
                   Disclaimer
                 </Link>
               </li>
               <li>
-                <Link href="/support" className="hover:text-gray-100">
+                <Link href="/sitemap.xml" className="hover:text-gray-100">
                   XML
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-100">
+                <Link href="/sitemap.html" className="hover:text-gray-100">
                   Site Map
                 </Link>
               </li>

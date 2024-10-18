@@ -2,8 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/support": "pages/support.js",
-  "/contact": "pages/contact.js",
-  "/about": "pages/about.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/sitemap.xml": "pages/sitemap.xml.js",
+  "/products": "pages/products.js",
+  "/services": "pages/services.js",
+  "/about": "pages/about.js"
 }

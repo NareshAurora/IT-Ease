@@ -1063,7 +1063,7 @@ const ProductsPage = () => {
         matchesSearchQuery
       );
     })
-    .sort((a, b) => a.price - b.price); // Sort by price
+    .sort((a, b) => a.price - b.price);
 
   const handleBrandChange = (e) => {
     const brand = e.target.value;
@@ -1207,7 +1207,7 @@ const ProductsPage = () => {
                   <h3 className="text-lg font-bold mb-2 text-gray-800">
                     {product.name}
                   </h3>
-                  <p className="text-gray-600 mb-2">{product.description}</p>
+                  {/* <p className="text-gray-600 mb-2">{product.description}</p>
                   <p className="text-blue-500 font-semibold mb-2">
                     ${product.price}
                   </p>
@@ -1216,7 +1216,7 @@ const ProductsPage = () => {
                   </p>
                   <button className="bg-blue-500 text-white w-full py-2 rounded-lg hover:bg-blue-600 transition">
                     View Details
-                  </button>
+                  </button> */}
                 </div>
               ))}
             </div>

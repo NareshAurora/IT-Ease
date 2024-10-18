@@ -175,12 +175,13 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed w-full z-50 transition-all duration-300 ${isHomePage
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isHomePage
           ? isScrolled
             ? "bg-white shadow-md"
             : "bg-transparent"
           : "bg-white shadow-md"
-        }`}
+      }`}
     >
       <div className="max-w-7xl mx-auto p-6 flex items-center justify-between">
         <Link href="/">
@@ -198,7 +199,7 @@ const Header = () => {
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
             <span className="ml-3 text-xl font-bold text-gray-900">
-              Fiber axis technologies
+              IT Ease
             </span>
           </span>
         </Link>
@@ -234,8 +235,9 @@ const Header = () => {
 
       {/* Mobile navigation */}
       <div
-        className={`md:hidden fixed inset-y-0 left-0 w-64 bg-white z-50 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
-          } transition-transform duration-300 ease-in-out`}
+        className={`md:hidden fixed inset-y-0 left-0 w-64 bg-white z-50 transform ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        } transition-transform duration-300 ease-in-out`}
       >
         <div className="flex items-center justify-center h-16 border-b">
           <Link href="/">
