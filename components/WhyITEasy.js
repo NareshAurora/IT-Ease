@@ -354,7 +354,7 @@ const WhyITEasy = () => {
                 />
               </div>
               <h3 className="text-2xl font-semibold mb-2">{benefit.title}</h3>
-              <p className="text-gray-600">{benefit.description}</p>
+              <p className="text-gray-600 text-lg">{benefit.description}</p>
             </div>
           </div>
         ))}
