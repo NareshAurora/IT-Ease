@@ -66,7 +66,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/sitemap.xml" className="hover:text-gray-100">
+                <Link href="/sitemap.html" className="hover:text-gray-100">
                   XML
                 </Link>
               </li>
